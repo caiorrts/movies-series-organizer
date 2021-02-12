@@ -1,1 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 
+body {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.7em;
+  color: var(--clr-primary);
+  background: linear-gradient(90deg, #d16ba5, #8aa7ec, #5ffbf1);
+}
+
+a {
+  color: #000;
+}
